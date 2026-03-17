@@ -11,7 +11,7 @@ jobs:
     
     - name: install dependencies
       run: |
-        sudo apt install -y python-is-python3
+        sudo ln -s /usr/bin/python3 /usr/bin/python
         sudo apt install gcc-aarch64-linux-gnu
         sudo apt install gcc-arm-linux-gnueabi
 
